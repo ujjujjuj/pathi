@@ -69,3 +69,11 @@ a{
     color: cyan;
     background:#202020;
 }
+.features{
+    color:red;
+    position: relative;
+    background-image: url("src/qualities.jpg");
+}
+.features ul{
+    margin:0 200px;
+}
