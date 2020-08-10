@@ -1,8 +1,71 @@
 *{
-    margin: 0;
+    margin: 6px;
     padding: 0;
     box-sizing: border-box;
 }
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    overflow-x:hidden;
+    background-color: pink;
+}
+.container{
+    padding-bottom: 100px;
+    margin:5px;
+    background-color: black;
+}
+.top div{
+    display: flex;
+}
+.top div h1{
+    margin:0 20px;
+    font-size: 80px;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    color: red;
+}
+.top div div{
+    display:flex;
+    flex-direction: column;
+}
+.top .box{
+    height:250px;
+    width:50vw;
+    background-color: transparent;
+    border: 5px dashed purple;
+}
+.top marquee{
+    height:40px;
+    font-size: 30px;
+    width: 100%;
+    color: cyan;
+    background:#202020;
+}
+.body{
+    display: flex;
+}
+.rainbowText {
+    animation: rainbow 1.5s infinite;
+    font-size:50px;
+}
+
+@keyframes rainbow{
+    0%{     color: violet;    }
+    14%{    color: indigo; }
+    28%{    color: blue; }
+    42%{    color:green;  }
+    56%{   color: yellow;    }
+    70%{   color: orange;    }
+    84%{   color: red;    }
+    100%{     color: violet;    }
+}
+.body marquee{
+    height:400px;
+    font-size: 30px;
+    width: 100%;
+    color: cyan;
+    background:#202020;
 }
